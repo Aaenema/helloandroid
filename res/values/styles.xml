@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Si usa il tag <style>. Servono per creare degli stili di disegno ed impaginazione, un po’ come-->
+    <!--fanno i fogli di stile CSS nel caso di HTML. Dentro il tag <style> vanno inseriti dei tag <item>-->
+    <!--con le singole voci che compongono lo stile. Gli stili possono essere applicati alle interfacce-->
+    <!--grafiche-->
+    <style name="titolo">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000088</item>
+    </style>
+</resources>

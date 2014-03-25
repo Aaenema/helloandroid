@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Rettangoli di colore: si usa il tag <drawable>. I valori possibili sono colori esadecimali come nel caso del tag-->
+    <!--<color>-->
+    <drawable name="verde">#00FF00</drawable>
+</resources>

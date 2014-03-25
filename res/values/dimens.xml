@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Si usa il tag <dimen> e con valori numerici decimali accompagnati da un’unità di misura che-->
+    <!--può essere px (pixel), in (pollici), mm (millimetri), pt (punti a risoluzione 72dpi), dp (punti di-->
+    <!--densità) e sp (punti di densità e scala)-->
+    <dimen name="lato">180px</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Si usa il tag <color> con valori espressi in forma esadecimale secondo i modelli #RRGGBB o-->
+    <!--#AARRGGBB (AA sta per il canale alpha, che regola la trasparenza del colore)-->
+    <color name="rosso">#FF0000</color>
+</resources>

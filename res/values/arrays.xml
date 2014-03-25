@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Array di interi-->
+    <!--Si usa il tag <integer-array>. Gli elementi dell’array vanno espressi con più occorrenze del tag-->
+    <!--annidato <item>-->
+    <integer-array name="numeriPrimi">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+    </integer-array>
+    <!--Array di stringhe-->
+    <!--Si usa il tag <string-array>. Anche in questo caso si usa il tag <item>-->
+    <string-array name="nomi">
+        <item>Carlo</item>
+        <item>Claudia</item>
+        <item>Nami</item>
+    </string-array>
+</resources>
