@@ -5,12 +5,35 @@
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="16"/>
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name="HelloAndroidActivity"
-                  android:label="@string/app_name">
+        <activity android:name="HelloAndroidActivity" android:label="@string/app_name">
             <intent-filter>
+                <!--Nel dizionario di Android, un intent è “la descrizione di un’operazione che deve essere eseguita”. Più-->
+                <!--semplicemente, gli intent sono dei messaggi che il sistema manda ad un’applicazione quando si-->
+                <!--aspetta che questa faccia qualcosa.-->
+                <!--Le attività, attraverso un intent-filter,-->
+                <!--possono essere attivate in risposta ad uno specifico evento. Gli intent-filter accettano figli di tre tipi:-->
                 <action android:name="android.intent.action.MAIN"/>
+                <!--Individua gli intent che richiedono l’azione specificata.-->
                 <category android:name="android.intent.category.LAUNCHER"/>
+                <!--Individua gli intent che appartengono alla categoria specificata-->
+                <!--<data android:mimeType="nome-tipo-mime"/>-->
+                <!--<data android:scheme="nome-schema-url"/>-->
+                <!--Individua gli intent che portano dati del tipo specificato.-->
+
+                <!--Un’attività dotata di un intent-filter che include l’azione-->
+                <!--android.intent.action.MAIN e la categoria android.intent.category.LAUNCHER viene identificata-->
+                <!--come l’attività principale dell’applicazione-->
             </intent-filter>
         </activity>
     </application>
 </manifest>
+
+<!--Tipi validi-->
+<!--@array, per gli array.-->
+<!--@color, per i colori.-->
+<!--@dimen, per le dimensioni.-->
+<!--@drawable, per i valori drawable, ma anche per le immagini messe in res/drawable.-->
+<!--@layout, per richiamare i layout presenti nella cartella res/layout.-->
+<!--@raw, per i file nella cartella res/raw (cfr. box laterale).-->
+<!--@string, per le stringhe.-->
+<!--@style, per gli stili.-->
